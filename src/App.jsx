@@ -14,6 +14,7 @@ function App() {
   const [activeSection, setActiveSection] = useState('home');
   const { scrollYProgress } = useScroll();
   const opacity = useTransform(scrollYProgress, [0, 0.2], [1, 0]);
+  const currentYear = new Date().getFullYear(); 
 
   useEffect(() => {
     const handleScroll = () => {
@@ -533,11 +534,11 @@ function App() {
 
       {/* Footer */}
       <footer className="footer">
-        <div className="container">
-          <p>&copy; 2026 Kevin Kipyegon Langat. All rights reserved.</p>
-          <p>Designed & Built with React</p>
-        </div>
-      </footer>
+  <div className="container">
+    <p>&copy; {currentYear} Kevin Kipyegon Langat. All rights reserved.</p>
+    <p>Designed & Built with React</p>
+  </div>
+</footer>
     </div>
   );
 }
