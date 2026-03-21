@@ -2,21 +2,21 @@
 
 A modern, professional portfolio website showcasing my skills as a Software Developer & Network Engineer.
 
-## 🚀 Features
+##  Features
 
 - **Modern Design**: Distinctive, professional aesthetic with smooth animations
 - **Responsive**: Works perfectly on all devices
 - **Performance Optimized**: Fast loading and smooth interactions
 - **SEO Friendly**: Optimized for search engines
 
-## 🛠️ Built With
+##  Built With
 
 - React 18
 - Framer Motion (animations)
 - React Icons
 - CSS3 with modern features
 
-## 📦 Installation
+##  Installation
 
 1. Clone the repository:
 ```bash
@@ -36,7 +36,7 @@ npm start
 
 The site will open at `http://localhost:3000`
 
-## 🌐 Deployment to GitHub Pages
+##  Deployment to GitHub Pages
 
 1. Update the `homepage` field in `package.json` with your GitHub username:
 ```json
@@ -58,7 +58,7 @@ This will build the project and push it to the `gh-pages` branch.
 
 Your site will be live at `https://YOUR-USERNAME.github.io/portfolio`
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 portfolio-website/
@@ -73,7 +73,7 @@ portfolio-website/
 └── README.md
 ```
 
-## 🎨 Customization
+##  Customization
 
 ### Update Personal Information
 
@@ -102,17 +102,16 @@ Edit CSS variables in `src/App.css`:
 
 Update the Google Fonts link in `public/index.html` and the font-family in CSS.
 
-## 📧 Contact
+##  Contact
 
 Kevin Kipyegon Langat
 - Email: kevinlangat008@gmail.com
-- Phone: +254 707 622 457
+- Phone: +254 111 790 013
 - Location: Nairobi, Kenya
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-**Note**: Remember to update the GitHub repository URL and personal information before deployment!
