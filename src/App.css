@@ -897,6 +897,50 @@ section {
 }
 
 /* ============================================
+   DISABLED FORM STYLE
+   ============================================ */
+.form-disabled-notice {
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.form-disabled-notice p:first-child {
+  color: var(--accent-cyan);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.form-disabled-notice p:last-child {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.contact-form input:disabled,
+.contact-form textarea:disabled {
+  opacity: 0.6;
+  cursor: not-allowed !important;
+  background: rgba(26, 31, 58, 0.5) !important;
+}
+
+.contact-form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+  background: var(--card-bg) !important;
+  color: var(--text-muted) !important;
+}
+
+.contact-form button:disabled:hover {
+  transform: none !important;
+  box-shadow: none !important;
+}
+
+/* ============================================
    RESPONSIVE DESIGN
    ============================================ */
 @media (max-width: 768px) {
@@ -960,9 +1004,3 @@ section {
   }
 }
 
-form input:disabled,
-form textarea:disabled,
-form button:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
