@@ -959,3 +959,10 @@ section {
     font-size: 2rem;
   }
 }
+
+form input:disabled,
+form textarea:disabled,
+form button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

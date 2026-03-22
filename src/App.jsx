@@ -512,20 +512,22 @@ function App() {
               </div>
               <div className="contact-form">
                 <form>
-                  <div className="form-group">
-                    <input type="text" placeholder="Your Name" required />
-                  </div>
-                  <div className="form-group">
-                    <input type="email" placeholder="Your Email" required />
-                  </div>
-                  <div className="form-group">
-                    <input type="text" placeholder="Subject" required />
-                  </div>
-                  <div className="form-group">
-                    <textarea rows="6" placeholder="Your Message" required></textarea>
-                  </div>
-                  <button type="submit" className="btn btn-primary">Send Message</button>
-                </form>
+  <div className="form-group">
+    <input type="text" placeholder="Your Name" disabled />
+  </div>
+  <div className="form-group">
+    <input type="email" placeholder="Your Email" disabled />
+  </div>
+  <div className="form-group">
+    <input type="text" placeholder="Subject" disabled />
+  </div>
+  <div className="form-group">
+    <textarea rows="6" placeholder="Your Message" disabled></textarea>
+  </div>
+  <button type="submit" className="btn btn-primary" disabled>
+    Send Message
+  </button>
+</form>
               </div>
             </div>
           </motion.div>
