@@ -120,8 +120,9 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              Building innovative software solutions
-              <br />that drive digital transformation and operational excellence.
+              Building innovative, scalable software solutions 
+              <br />that drive digital transformation, efficiency, and exceptional user experiences.
+
             </motion.p>
             <motion.div 
               className="hero-cta"
