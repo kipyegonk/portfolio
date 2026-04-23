@@ -112,7 +112,7 @@ function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
             >
-              Software Developer & Network Engineer
+              Software Developer
             </motion.h2>
             <motion.p 
               className="hero-description"
@@ -120,7 +120,7 @@ function App() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
             >
-              Building innovative software solutions and robust network infrastructures
+              Building innovative software solutions
               <br />that drive digital transformation and operational excellence.
             </motion.p>
             <motion.div 
